@@ -5,9 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91D007B9-947A-4B08-8124-C5DD26142358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{1E0567C6-48CF-420F-8B46-D5C7E77862DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{1E0567C6-48CF-420F-8B46-D5C7E77862DC}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D5E3EDBB-0C99-44DA-A870-1BD80BB03A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{A949A082-D7AA-4178-BD67-D20796C5B24A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{D5E3EDBB-0C99-44DA-A870-1BD80BB03A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E3EDBB-0C99-44DA-A870-1BD80BB03A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E3EDBB-0C99-44DA-A870-1BD80BB03A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A949A082-D7AA-4178-BD67-D20796C5B24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A949A082-D7AA-4178-BD67-D20796C5B24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A949A082-D7AA-4178-BD67-D20796C5B24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A949A082-D7AA-4178-BD67-D20796C5B24A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1E0567C6-48CF-420F-8B46-D5C7E77862DC} = {91D007B9-947A-4B08-8124-C5DD26142358}
+		{A949A082-D7AA-4178-BD67-D20796C5B24A} = {91D007B9-947A-4B08-8124-C5DD26142358}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F78512F-DB6D-455F-83B5-7CAE2823D71A}
